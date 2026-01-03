@@ -4,7 +4,7 @@ public class Book implements Searchable {
     private String isbn;
     private String title;
     private String author;
-    private String category; // Added Category 
+    private String category; // Added Category
     private boolean isAvailable;
 
     public Book(String isbn, String title, String author, String category, boolean isAvailable) {
