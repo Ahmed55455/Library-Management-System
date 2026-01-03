@@ -8,7 +8,7 @@ public class Admin extends User {
 
     @Override
     public String toCSV() {
-        // Admins don't have student IDs, so we put "N/A,0" to keep CSV structure consistent
+        // Admins don't have student IDs, so we put "N/A,0" to keep CSV structure consistent.
         return super.toCSV() + ",N/A,0";
     }
 
